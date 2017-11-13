@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order</title>
+
+        <link href="media/style.css" rel="stylesheet" type="text/css" />
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div id="header">
+                <nav id="nav" style="padding-top: 8px">
+                    <ul>
+
+                        <li><a style="padding-left: 230px;" href="index.html">Home</a></li>
+                        <li>
+                            <a style="padding-right: 40px;">Order</a>
+                            <ul>
+                                <li><a href="window.html">Create an order</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="left-column" style="padding-left: 160px;">
+                <div class="box">
+                    <form action="Servlet">
+                        <center><h3>Calculate window price</h3></center>
+                        <p><li>Type in dimensions (height & width).</li></p>
+                        <p><li>Choose which frame you are interested in.</li></p>
+                        <p><li>Only whole numbers (min: 10 & max: 1000)</li>
+                        <p><li>The price of glass is kr 300,- per m<sup>2</sup></li></p><br>   
+                    
+            <p><b>Dimensions</b></p>        
+            <br><p><b>Height:</b></p>
+            <input type="number" id="height_id" name="height" min="10" max="1000" style="width: 60px" required/> cm<br>
+
+            <br><p><b>Width:</b></p>
+            <input type="number" id="width_id" name="width" min="10" max="1000" style="width: 60px" required/> cm<br>
+
+            <br><p><b>Frametypes</b></p>
+            <br><input type="radio" name="type" value="1" checked>Woodframe - kr. 100,- pr m<br>
+            <br style="line-height: 100%"><input type="radio" name="type" value="2">Vinylframe - kr. 200,- pr m<br>
+            <br style="line-height: 100%"><input type="radio" name="type" value="3">Aluminiumframe - kr. 350,- pr m<br><br>
+            
+            <input type="submit" value="Order"/>
+        </form>
+    </body>
+</html>

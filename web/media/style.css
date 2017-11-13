@@ -1,0 +1,159 @@
+body {
+    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+    color:black;
+    margin:0;
+    padding:0;
+    background:#FFFFFF;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    margin:0 auto;
+    width:632px;
+    border-left:1px solid #f0e9eb;
+    border-right:1px solid #f0e9eb;
+}
+
+
+#header {
+  
+    height:25px;
+    background:black;
+    padding:10px 20px;
+    text-align:right;
+    
+}
+
+
+#bg {
+    height:36px;
+
+}
+
+#main-content {
+    margin:0 auto;
+}
+
+#main-image {
+    text-align:center;
+}
+
+#left-column {
+    width:300px;
+    padding:0 30px 30px;
+    float:left;
+    color: black;
+}
+
+#right-column {
+    width:270px;
+    float:right;
+}
+
+.sidebar {
+    width:218px;
+    margin:0 auto;
+    padding:10px 25px;
+}
+
+#footer {
+    background:#f7f7f7;
+    border-top:1px solid #f0e9eb;
+    padding:10px 15px;
+    clear:both;
+}
+
+a:visited, a:link {
+    color:black;
+    text-decoration:underline;
+    background:none;
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+    background:none;
+}
+
+h1 {
+    color:black;
+    margin:0 0 10px;
+    padding-bottom:10px;
+    font:normal 17px Georgia, serif;
+    border-bottom:1px solid #efece7;
+}
+
+h2 {
+    color:black;
+    margin:20px 0 10px;
+    padding-bottom:10px;
+    font:normal 17px Georgia, serif;
+    border-bottom:1px solid #efece7;
+}
+
+h3 {
+    color:black;
+    margin:10px 0;
+    padding-bottom:10px;
+    font:bold 14px Georgia, serif;
+    border-bottom:1px solid #efece7;
+}
+
+ul {
+    padding:0;
+    margin:0 0 0 17px;
+    list-style-type: square;
+}
+
+.box {
+    background:#f7f7f7;
+    border:1px solid black;
+    padding:15px;
+    
+}
+
+#nav a:visited, #nav a:link, #nav a, #nav li, #nav a:hover {
+    text-decoration:none;
+    color:white;
+    list-style-type: none;
+}
+
+#nav a:hover {
+    text-decoration:underline;
+ 
+}
+
+#logo {
+    margin-bottom:20px;
+    font:normal 18px Georgia, serif;
+    color: black;
+}
+
+
+ul ul
+{
+    background-color: black;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: transform 0.3s linear;
+    list-style-type: none;
+}
+
+nav > ul > li
+{
+    float: left;
+}
+
+ul li:hover > a
+{
+    color: white;
+}
+
+ul li:hover ul
+{
+    transform: scaleY(1);
+}
