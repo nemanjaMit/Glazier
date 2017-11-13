@@ -1,5 +1,5 @@
 
-Glazier - 1. semester
+**Glazier - 1. semester project**
 
 | Name             | GitHub                                          | Droplet        |
 | ---------------- | ----------------------------------------------- | -------------- |
